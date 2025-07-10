@@ -12,7 +12,7 @@ For Java there is an existing coverage agent (Jacoco) which is
 used like this:
 
 ```bash
-java -javaagent:/jacoco/jacocoagent.jar=output=tcpserver <...more arguments...>
+java -javaagent:/jacoco/jacocoagent.jar=output=tcpserver,address=* <...more arguments...>
 ```
 
 `jacocoagent.jar` can be downloaded [here](https://www.jacoco.org/jacoco/) as
